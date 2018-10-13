@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23042B3E4902F3DF8EFECF38 /* libPods-PaymentApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B3DB57AE0399CC4B5048B0 /* libPods-PaymentApp.a */; };
+		9CB32874CAA11EFC032EC1B4 /* libPods-PaymentAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ED414301C39A41EBF2DF47 /* libPods-PaymentAppUITests.a */; };
 		A305EA27217259E40056357F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA26217259E40056357F /* AppDelegate.m */; };
-		A305EA2A217259E40056357F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA29217259E40056357F /* ViewController.m */; };
 		A305EA2D217259E40056357F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A305EA2B217259E40056357F /* Main.storyboard */; };
 		A305EA2F217259E50056357F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A305EA2E217259E50056357F /* Assets.xcassets */; };
 		A305EA32217259E50056357F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A305EA30217259E50056357F /* LaunchScreen.storyboard */; };
 		A305EA35217259E50056357F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA34217259E50056357F /* main.m */; };
 		A305EA3F217259E60056357F /* PaymentAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA3E217259E60056357F /* PaymentAppTests.m */; };
 		A305EA4A217259E60056357F /* PaymentAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA49217259E60056357F /* PaymentAppUITests.m */; };
+		A305EA7F21725D840056357F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA7E21725D840056357F /* MainViewController.m */; };
+		A305EA872172749F0056357F /* AmountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA862172749F0056357F /* AmountViewController.m */; };
+		A305EA8C217288320056357F /* PaymentSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA8B217288320056357F /* PaymentSelectorController.m */; };
+		A305EA8F217288520056357F /* PaymentMethodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA8E217288520056357F /* PaymentMethodCell.m */; };
+		A305EA9321728B5E0056357F /* BankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA9221728B5E0056357F /* BankCell.m */; };
+		A305EA9621728B780056357F /* BankSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA9521728B780056357F /* BankSelectorController.m */; };
+		A305EA9A21728B980056357F /* QuotaSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A305EA9921728B980056357F /* QuotaSelectorController.m */; };
+		F7B8F7C0BBB07CF3C1A58419 /* libPods-PaymentAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C82B14E5DC531E3D960E36 /* libPods-PaymentAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06B3DB57AE0399CC4B5048B0 /* libPods-PaymentApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaymentApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7E03E3C0EF8AFB42758DBE /* Pods-PaymentAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentAppUITests/Pods-PaymentAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		12ED414301C39A41EBF2DF47 /* libPods-PaymentAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaymentAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C82B14E5DC531E3D960E36 /* libPods-PaymentAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaymentAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7008C9736A3BB288E28BD508 /* Pods-PaymentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentAppTests/Pods-PaymentAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		A305EA22217259E40056357F /* PaymentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A305EA25217259E40056357F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A305EA26217259E40056357F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A305EA28217259E40056357F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A305EA29217259E40056357F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A305EA2C217259E40056357F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A305EA2E217259E50056357F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A305EA31217259E50056357F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,24 @@
 		A305EA45217259E60056357F /* PaymentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A305EA49217259E60056357F /* PaymentAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentAppUITests.m; sourceTree = "<group>"; };
 		A305EA4B217259E60056357F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A305EA7D21725D840056357F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A305EA7E21725D840056357F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A305EA852172749F0056357F /* AmountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmountViewController.h; sourceTree = "<group>"; };
+		A305EA862172749F0056357F /* AmountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmountViewController.m; sourceTree = "<group>"; };
+		A305EA8A217288320056357F /* PaymentSelectorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentSelectorController.h; sourceTree = "<group>"; };
+		A305EA8B217288320056357F /* PaymentSelectorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentSelectorController.m; sourceTree = "<group>"; };
+		A305EA8D217288520056357F /* PaymentMethodCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethodCell.h; sourceTree = "<group>"; };
+		A305EA8E217288520056357F /* PaymentMethodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethodCell.m; sourceTree = "<group>"; };
+		A305EA9121728B5E0056357F /* BankCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCell.h; sourceTree = "<group>"; };
+		A305EA9221728B5E0056357F /* BankCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCell.m; sourceTree = "<group>"; };
+		A305EA9421728B780056357F /* BankSelectorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankSelectorController.h; sourceTree = "<group>"; };
+		A305EA9521728B780056357F /* BankSelectorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankSelectorController.m; sourceTree = "<group>"; };
+		A305EA9821728B980056357F /* QuotaSelectorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuotaSelectorController.h; sourceTree = "<group>"; };
+		A305EA9921728B980056357F /* QuotaSelectorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuotaSelectorController.m; sourceTree = "<group>"; };
+		B1C6A79731FD9B44FD93E0EE /* Pods-PaymentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentApp/Pods-PaymentApp.release.xcconfig"; sourceTree = "<group>"; };
+		C8E012FEE3D92FF23BC115B7 /* Pods-PaymentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentAppTests/Pods-PaymentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA8D29CEC95C31D2B0C5E31C /* Pods-PaymentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentApp/Pods-PaymentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F4EA0B68968D30DCFB02235B /* Pods-PaymentAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentAppUITests/Pods-PaymentAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23042B3E4902F3DF8EFECF38 /* libPods-PaymentApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B8F7C0BBB07CF3C1A58419 /* libPods-PaymentAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB32874CAA11EFC032EC1B4 /* libPods-PaymentAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C170FE71FCED5933DD49B54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA8D29CEC95C31D2B0C5E31C /* Pods-PaymentApp.debug.xcconfig */,
+				B1C6A79731FD9B44FD93E0EE /* Pods-PaymentApp.release.xcconfig */,
+				C8E012FEE3D92FF23BC115B7 /* Pods-PaymentAppTests.debug.xcconfig */,
+				7008C9736A3BB288E28BD508 /* Pods-PaymentAppTests.release.xcconfig */,
+				0A7E03E3C0EF8AFB42758DBE /* Pods-PaymentAppUITests.debug.xcconfig */,
+				F4EA0B68968D30DCFB02235B /* Pods-PaymentAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A305EA19217259E40056357F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				A305EA3D217259E60056357F /* PaymentAppTests */,
 				A305EA48217259E60056357F /* PaymentAppUITests */,
 				A305EA23217259E40056357F /* Products */,
+				3C170FE71FCED5933DD49B54 /* Pods */,
+				B7377104FF499B3E33FD35CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +149,13 @@
 		A305EA24217259E40056357F /* PaymentApp */ = {
 			isa = PBXGroup;
 			children = (
-				A305EA25217259E40056357F /* AppDelegate.h */,
-				A305EA26217259E40056357F /* AppDelegate.m */,
-				A305EA28217259E40056357F /* ViewController.h */,
-				A305EA29217259E40056357F /* ViewController.m */,
-				A305EA2B217259E40056357F /* Main.storyboard */,
+				A305EA57217259F10056357F /* Application */,
+				A305EA5A21725A0A0056357F /* Resources */,
+				A305EA5C21725A230056357F /* Services */,
+				A305EA5921725A050056357F /* Models */,
+				A305EA5B21725A130056357F /* Modules */,
+				A305EA58217259FC0056357F /* StoryBoard */,
 				A305EA2E217259E50056357F /* Assets.xcassets */,
-				A305EA30217259E50056357F /* LaunchScreen.storyboard */,
 				A305EA33217259E50056357F /* Info.plist */,
 				A305EA34217259E50056357F /* main.m */,
 			);
@@ -132,6 +180,324 @@
 			path = PaymentAppUITests;
 			sourceTree = "<group>";
 		};
+		A305EA57217259F10056357F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA25217259E40056357F /* AppDelegate.h */,
+				A305EA26217259E40056357F /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A305EA58217259FC0056357F /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA2B217259E40056357F /* Main.storyboard */,
+				A305EA30217259E50056357F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		A305EA5921725A050056357F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A305EA5A21725A0A0056357F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A305EA5B21725A130056357F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA5D21725AFB0056357F /* Main */,
+				A305EA5E21725B0C0056357F /* Amount */,
+				A305EA6121725B7D0056357F /* PaymentSelector */,
+				A305EA5F21725B310056357F /* BankSelector */,
+				A305EA6021725B420056357F /* QuotaSelector */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A305EA5C21725A230056357F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A305EA5D21725AFB0056357F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA6221725B930056357F /* View */,
+				A305EA6321725B9A0056357F /* Presenter */,
+				A305EA6521725BB20056357F /* Protocols */,
+				A305EA6621725BC20056357F /* Wireframe */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A305EA5E21725B0C0056357F /* Amount */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA6721725BDC0056357F /* View */,
+				A305EA6821725BE60056357F /* Presenter */,
+				A305EA6921725BEC0056357F /* Protocols */,
+				A305EA6A21725BF80056357F /* Wireframe */,
+			);
+			path = Amount;
+			sourceTree = "<group>";
+		};
+		A305EA5F21725B310056357F /* BankSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA7021725C4D0056357F /* View */,
+				A305EA7121725C580056357F /* Presenter */,
+				A305EA7221725C610056357F /* Interactor */,
+				A305EA7421725C730056357F /* Protocols */,
+				A305EA7321725C6D0056357F /* Wireframe */,
+			);
+			path = BankSelector;
+			sourceTree = "<group>";
+		};
+		A305EA6021725B420056357F /* QuotaSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA7521725C8A0056357F /* View */,
+				A305EA7621725C910056357F /* Presenter */,
+				A305EA7721725C990056357F /* Interactor */,
+				A305EA7821725C9F0056357F /* Protocols */,
+				A305EA7921725CAC0056357F /* Wireframe */,
+			);
+			path = QuotaSelector;
+			sourceTree = "<group>";
+		};
+		A305EA6121725B7D0056357F /* PaymentSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA6B21725C0F0056357F /* View */,
+				A305EA6C21725C150056357F /* Presenter */,
+				A305EA6D21725C1F0056357F /* Interactor */,
+				A305EA6E21725C270056357F /* Protocols */,
+				A305EA6F21725C2D0056357F /* Wireframe */,
+			);
+			path = PaymentSelector;
+			sourceTree = "<group>";
+		};
+		A305EA6221725B930056357F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA7D21725D840056357F /* MainViewController.h */,
+				A305EA7E21725D840056357F /* MainViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A305EA6321725B9A0056357F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A305EA6521725BB20056357F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A305EA6621725BC20056357F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		A305EA6721725BDC0056357F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA852172749F0056357F /* AmountViewController.h */,
+				A305EA862172749F0056357F /* AmountViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A305EA6821725BE60056357F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A305EA6921725BEC0056357F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A305EA6A21725BF80056357F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		A305EA6B21725C0F0056357F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA89217287F80056357F /* Cell */,
+				A305EA8A217288320056357F /* PaymentSelectorController.h */,
+				A305EA8B217288320056357F /* PaymentSelectorController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A305EA6C21725C150056357F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A305EA6D21725C1F0056357F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A305EA6E21725C270056357F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A305EA6F21725C2D0056357F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		A305EA7021725C4D0056357F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA9421728B780056357F /* BankSelectorController.h */,
+				A305EA9521728B780056357F /* BankSelectorController.m */,
+				A305EA9021728B4D0056357F /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A305EA7121725C580056357F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A305EA7221725C610056357F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A305EA7321725C6D0056357F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		A305EA7421725C730056357F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A305EA7521725C8A0056357F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA9821728B980056357F /* QuotaSelectorController.h */,
+				A305EA9921728B980056357F /* QuotaSelectorController.m */,
+				A305EA9721728B830056357F /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A305EA7621725C910056357F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A305EA7721725C990056357F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A305EA7821725C9F0056357F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A305EA7921725CAC0056357F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		A305EA89217287F80056357F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA8D217288520056357F /* PaymentMethodCell.h */,
+				A305EA8E217288520056357F /* PaymentMethodCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A305EA9021728B4D0056357F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A305EA9121728B5E0056357F /* BankCell.h */,
+				A305EA9221728B5E0056357F /* BankCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A305EA9721728B830056357F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B7377104FF499B3E33FD35CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B3DB57AE0399CC4B5048B0 /* libPods-PaymentApp.a */,
+				35C82B14E5DC531E3D960E36 /* libPods-PaymentAppTests.a */,
+				12ED414301C39A41EBF2DF47 /* libPods-PaymentAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +505,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A305EA4E217259E60056357F /* Build configuration list for PBXNativeTarget "PaymentApp" */;
 			buildPhases = (
+				3284EF68862BFD1CD06A8DB2 /* [CP] Check Pods Manifest.lock */,
 				A305EA1E217259E40056357F /* Sources */,
 				A305EA1F217259E40056357F /* Frameworks */,
 				A305EA20217259E40056357F /* Resources */,
@@ -156,6 +523,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A305EA51217259E60056357F /* Build configuration list for PBXNativeTarget "PaymentAppTests" */;
 			buildPhases = (
+				F437605CBA43B5A142D92FC2 /* [CP] Check Pods Manifest.lock */,
 				A305EA36217259E60056357F /* Sources */,
 				A305EA37217259E60056357F /* Frameworks */,
 				A305EA38217259E60056357F /* Resources */,
@@ -174,6 +542,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A305EA54217259E60056357F /* Build configuration list for PBXNativeTarget "PaymentAppUITests" */;
 			buildPhases = (
+				D89001BC364BB98B9E194615 /* [CP] Check Pods Manifest.lock */,
 				A305EA41217259E60056357F /* Sources */,
 				A305EA42217259E60056357F /* Frameworks */,
 				A305EA43217259E60056357F /* Resources */,
@@ -257,14 +626,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3284EF68862BFD1CD06A8DB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89001BC364BB98B9E194615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F437605CBA43B5A142D92FC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A305EA1E217259E40056357F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A305EA2A217259E40056357F /* ViewController.m in Sources */,
+				A305EA872172749F0056357F /* AmountViewController.m in Sources */,
 				A305EA35217259E50056357F /* main.m in Sources */,
+				A305EA7F21725D840056357F /* MainViewController.m in Sources */,
+				A305EA8C217288320056357F /* PaymentSelectorController.m in Sources */,
+				A305EA9621728B780056357F /* BankSelectorController.m in Sources */,
+				A305EA9A21728B980056357F /* QuotaSelectorController.m in Sources */,
 				A305EA27217259E40056357F /* AppDelegate.m in Sources */,
+				A305EA9321728B5E0056357F /* BankCell.m in Sources */,
+				A305EA8F217288520056357F /* PaymentMethodCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +865,7 @@
 		};
 		A305EA4F217259E60056357F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8D29CEC95C31D2B0C5E31C /* Pods-PaymentApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +883,7 @@
 		};
 		A305EA50217259E60056357F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C6A79731FD9B44FD93E0EE /* Pods-PaymentApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +901,7 @@
 		};
 		A305EA52217259E60056357F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E012FEE3D92FF23BC115B7 /* Pods-PaymentAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +921,7 @@
 		};
 		A305EA53217259E60056357F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7008C9736A3BB288E28BD508 /* Pods-PaymentAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +941,7 @@
 		};
 		A305EA55217259E60056357F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7E03E3C0EF8AFB42758DBE /* Pods-PaymentAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5355TA2ZTC;
@@ -523,6 +960,7 @@
 		};
 		A305EA56217259E60056357F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EA0B68968D30DCFB02235B /* Pods-PaymentAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5355TA2ZTC;

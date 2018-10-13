@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BankCell.h
 //  PaymentApp
 //
 //  Created by Mauricio Figueroa olivares on 10/13/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface BankCell : UITableViewCell
 
 @end
 
+NS_ASSUME_NONNULL_END
